@@ -57,7 +57,7 @@ export default function HomePage() {
           Clone, connect your API, and go live.
         </p>
         <a
-          href="https://github.com/INSPIRON-TECH-BD/MANAGER-IO-DASHBOARD-TEMPLATES"
+          href="https://github.com/INSPIRON-TECH-BD/MANAGER-IO-DASHBOARD"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-brand-primary text-white font-semibold hover:bg-blue-600 transition-colors"

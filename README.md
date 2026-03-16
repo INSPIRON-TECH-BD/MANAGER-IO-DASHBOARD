@@ -1,6 +1,6 @@
-# 📊 MANAGER-IO-DASHBOARD-TEMPLATES
+# 📊 MANAGER-IO-DASHBOARD
 
-[![Deploy](https://github.com/INSPIRON-TECH-BD/MANAGER-IO-DASHBOARD-TEMPLATES/actions/workflows/deploy.yml/badge.svg)](https://github.com/INSPIRON-TECH-BD/MANAGER-IO-DASHBOARD-TEMPLATES/actions/workflows/deploy.yml)
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel)](https://dashboard.inspiron.tech)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38bdf8?logo=tailwindcss)](https://tailwindcss.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-00A86B.svg)](LICENSE)
@@ -10,9 +10,9 @@
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Live Dashboard
 
-**[https://inspiron-tech-bd.github.io/MANAGER-IO-DASHBOARD-TEMPLATES](https://inspiron-tech-bd.github.io/MANAGER-IO-DASHBOARD-TEMPLATES)**
+**[https://dashboard.inspiron.tech](https://dashboard.inspiron.tech)**
 
 ---
 
@@ -30,8 +30,8 @@
 ## 🛠️ Local Development
 
 ```bash
-git clone https://github.com/INSPIRON-TECH-BD/MANAGER-IO-DASHBOARD-TEMPLATES
-cd MANAGER-IO-DASHBOARD-TEMPLATES
+git clone https://github.com/INSPIRON-TECH-BD/MANAGER-IO-DASHBOARD
+cd MANAGER-IO-DASHBOARD
 npm install
 npm run dev
 # Open http://localhost:3000
@@ -39,15 +39,15 @@ npm run dev
 
 ## 🏗️ Tech Stack
 
-- **Framework**: Next.js 14 (App Router, Static Export)
+- **Framework**: Next.js 14 (App Router)
 - **Styling**: Tailwind CSS + INSPIRON TECH brand tokens
 - **Charts**: Recharts
 - **Icons**: Phosphor Icons
-- **Deploy**: GitHub Actions → GitHub Pages
+- **Deploy**: Vercel (Auto-deploy on git push)
 
 ---
 
 ## 📬 Contact
 
 **MD ABU HASAN** — Founder, INSPIRON TECH  
-🌐 [inspiron.tech](https://inspiron.tech) | 💼 [Upwork](https://upwork.com/freelancers/abuhasan30) | 💬 [WhatsApp](https://wa.me/8801719300849)
+🌐 [inspiron.tech](https://inspiron.tech) | 💼 [Upwork](https://upwork.com/freelancers/cyberhasan) | 💬 [WhatsApp](https://wa.me/8801719300849)
