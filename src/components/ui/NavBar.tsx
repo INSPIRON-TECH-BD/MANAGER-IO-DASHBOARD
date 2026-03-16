@@ -1,3 +1,5 @@
+'use client';
+import Link from 'next/link';
 import { Logo } from '@/components/ui/Logo';
 
 const links = [
@@ -15,6 +17,7 @@ export default function NavBar() {
           <Link href="/" className="haptic-button">
             <Logo size={28} />
           </Link>
+          <div className="hidden md:flex items-center gap-1">
             {links.map((l) => (
               <Link
                 key={l.href}
