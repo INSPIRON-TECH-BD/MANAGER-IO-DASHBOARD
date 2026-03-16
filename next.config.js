@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-
 const nextConfig = {
   output: 'export',
-  basePath: isProd ? '/MANAGER-IO-DASHBOARD' : '',
-  assetPrefix: isProd ? '/MANAGER-IO-DASHBOARD/' : '',
+  basePath: '',
+  assetPrefix: '',
   images: { unoptimized: true },
   trailingSlash: true,
 };
