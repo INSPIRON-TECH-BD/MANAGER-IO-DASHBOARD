@@ -42,27 +42,27 @@ const templates = [
 
 export default function HomePage() {
   return (
-    <>
+    <div className="blueprint-grid min-h-screen">
       {/* Hero */}
-      <section className="text-center py-16 px-4">
-        <span className="inline-block text-xs font-semibold uppercase tracking-widest text-brand-cyan mb-4">
-          INSPIRON TECH — Official Manager.io Partner, Bangladesh
+      <section className="text-center py-20 px-4 relative">
+        <span className="inline-block text-[10px] font-bold uppercase tracking-[0.2em] text-brand-cyan mb-6 font-institutional">
+          Official Manager.io Partner — Bangladesh
         </span>
-        <h1 className="text-4xl md:text-5xl font-display font-bold text-brand-text mb-4 leading-tight">
+        <h1 className="text-5xl md:text-6xl font-institutional font-bold text-white mb-6 leading-tight">
           Manager.io<br />
-          <span className="text-brand-cyan">Dashboard Templates</span>
+          <span className="text-brand-primary">Dashboard Templates</span>
         </h1>
-        <p className="text-brand-muted max-w-xl mx-auto text-lg mb-8">
-          Free, open-source Next.js 14 dashboard templates built for Manager.io clients.
-          Clone, connect your API, and go live.
+        <p className="text-brand-muted max-w-2xl mx-auto text-lg mb-10 font-light leading-relaxed">
+          Operational Intelligence for the Modern Enterprise.
+          Bridge your Manager.io data with custom Next.js 14 infrastructure.
         </p>
         <a
           href="https://github.com/INSPIRON-TECH-BD/MANAGER-IO-DASHBOARD"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-brand-primary text-white font-semibold hover:bg-blue-600 transition-colors"
+          className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-brand-primary text-black font-bold hover:scale-105 transition-transform haptic-button shadow-[0_0_20px_rgba(255,215,0,0.3)]"
         >
-          View on GitHub <ArrowRight size={16} weight="bold" />
+          View on GitHub <ArrowRight size={18} weight="bold" />
         </a>
       </section>
 
@@ -84,6 +84,6 @@ export default function HomePage() {
           </Link>
         ))}
       </section>
-    </>
+    </div>
   );
 }

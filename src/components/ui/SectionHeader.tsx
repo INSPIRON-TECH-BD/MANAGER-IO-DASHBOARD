@@ -12,7 +12,7 @@ export default function SectionHeader({ title, subtitle, badge }: SectionHeaderP
           {badge}
         </span>
       )}
-      <h2 className="text-2xl font-display font-bold text-brand-text">{title}</h2>
+      <h2 className="text-2xl font-institutional font-bold text-white">{title}</h2>
       {subtitle && <p className="text-brand-muted mt-1 text-sm">{subtitle}</p>}
       <div className="mt-3 h-px bg-gradient-to-r from-brand-primary via-brand-cyan to-transparent" />
     </div>

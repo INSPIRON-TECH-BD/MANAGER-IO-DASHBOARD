@@ -1,13 +1,13 @@
 export const COLORS = {
-  primary: '#0072CE',
+  primary: '#FFD700', // Primary Gold
   success: '#00A86B',
   accent:  '#FF8C42',
-  cyan:    '#00DBB8',
-  dark:    '#0f172a',
-  card:    '#1e293b',
-  border:  '#334155',
-  muted:   '#94a3b8',
-  text:    '#e2e8f0',
+  cyan:    '#00D2FF', // Secondary Cyan
+  dark:    '#010409', // Navy Black
+  card:    '#0d1117', // Refined Card Dark
+  border:  '#30363d', // Refined Border
+  muted:   '#8b949e',
+  text:    '#ffffff',
 } as const;
 
 export const CHART_COLORS = [

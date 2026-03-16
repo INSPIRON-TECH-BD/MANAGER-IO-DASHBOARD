@@ -10,20 +10,21 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          primary:  '#0072CE',
+          primary:  '#FFD700', // Gold
           success:  '#00A86B',
           accent:   '#FF8C42',
-          cyan:     '#00DBB8',
-          dark:     '#0f172a',
-          card:     '#1e293b',
-          border:   '#334155',
-          muted:    '#94a3b8',
-          text:     '#e2e8f0',
+          cyan:     '#00D2FF', // Cyan
+          dark:     '#010409',
+          card:     '#0d1117',
+          border:   '#30363d',
+          muted:    '#8b949e',
+          text:     '#ffffff',
         },
       },
       fontFamily: {
-        sans:     ['Inter', 'sans-serif'],
-        display:  ['Glacial Indifference', 'Inter', 'sans-serif'],
+        sans:          ['Neo Sans Pro', 'sans-serif'],
+        institutional: ['Neo Sans Pro', 'sans-serif'],
+        display:       ['Neo Sans Pro', 'sans-serif'],
       },
     },
   },

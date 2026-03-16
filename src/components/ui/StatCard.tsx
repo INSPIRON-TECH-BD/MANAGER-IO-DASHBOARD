@@ -20,7 +20,7 @@ export default function StatCard({
       <div className="flex items-start justify-between">
         <div>
           <p className="text-brand-muted text-xs uppercase tracking-wider mb-1">{title}</p>
-          <p className="text-2xl font-display font-bold text-brand-text">{value}</p>
+          <p className="text-2xl font-institutional font-bold text-white">{value}</p>
         </div>
         {icon && <div className="text-brand-muted opacity-60">{icon}</div>}
       </div>
